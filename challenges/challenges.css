@@ -93,6 +93,8 @@ a {
 h2::after {
   content: "SALE";
   font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
   display: inline-block;
   background-color: rgb(208, 73, 73);
   color: white;
@@ -119,7 +121,7 @@ h2::after {
 }
 
 .color3 {
-  background-color: red;
+  background-color: rgb(251, 5, 5);
 }
 
 .color4 {
