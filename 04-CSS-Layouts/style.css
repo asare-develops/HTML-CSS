@@ -171,7 +171,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -197,9 +196,10 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
-  /* color: red; */
-}
+/* Example code for CSS adjacent elements */
+/* h3 + p::first-line {
+  color: red;
+} */
 
 h2 {
   position: relative;
@@ -216,4 +216,31 @@ h2::after {
   position: absolute;
   top: -10px;
   right: -25px;
+}
+
+/* FLOATS */
+/* .author-img {
+  float: left;
+}
+
+.author {
+  float: right;
+} */
+
+/* USING FLEXBOX TO STYLE OUR PAGE */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
 }
